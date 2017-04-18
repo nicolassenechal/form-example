@@ -1,0 +1,26 @@
+@import 'theme';
+
+.container {
+    position: relative;
+    max-width: var(--max-width);
+    margin-bottom: var(--gutter);
+}
+
+:global(.test) .container {
+    background: red;
+}
+
+.counter {
+    position: absolute;
+    right: 0;
+    font-size: 12px;
+    color: var(--counter);
+}
+
+.form-control {
+    border-radius: 0px;
+	border: 1px solid var(--border);
+	box-shadow: none;
+	height: 45px;
+    max-width: var(--max-width);
+}

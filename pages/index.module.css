@@ -1,0 +1,22 @@
+@import 'theme';
+
+:global(html>body) {
+    background-color: #EEE;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'Helvetica', 'Arial Regular', 'Arial';
+    margin: 0;
+}
+
+.container {
+
+}
+
+.section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.label {
+    font-size: 21px;
+}
